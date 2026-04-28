@@ -4,8 +4,7 @@
 
 | Nome | RM | Contribuições |
 |------|----|----------------|
-| Henrique Maldonado | 557270 | Desenvolveu toda a estrutura do projeto e o código do Cantina App, incluindo as versões iniciais e as atualizações com tela de login/cadastro, cardápio com favoritos e tema escuro (dark mode). |<img width="1220" height="791" alt="cardapio" src="https://github.com/user-attachments/assets/02a8a396-ffe8-406d-8d8b-2972dec20ee0" />
-
+| Henrique Maldonado | 557270 | Desenvolveu toda a estrutura do projeto e o código do Cantina App, incluindo as versões iniciais e as atualizações com tela de login/cadastro, cardápio com favoritos e tema escuro (dark mode). |
 | Matheus Taylor | 556211 | Responsável pela documentação do README.md, criação do repositório `fiap-mdi-cp2-cantina-app` e atualizações da documentação conforme novas funcionalidades pro CheckPoint 2 (fiap-mdi-cp2-cantina-app). |
 
 ## Sobre o Projeto
