@@ -4,7 +4,8 @@
 
 | Nome | RM | Contribuições |
 |------|----|----------------|
-| Henrique Maldonado | 557270 | Desenvolveu toda a estrutura do projeto e o código do Cantina App, incluindo as versões iniciais e as atualizações com tela de login/cadastro, cardápio com favoritos e tema escuro (dark mode). |
+| Henrique Maldonado | 557270 | Desenvolveu toda a estrutura do projeto e o código do Cantina App, incluindo as versões iniciais e as atualizações com tela de login/cadastro, cardápio com favoritos e tema escuro (dark mode). |<img width="1220" height="791" alt="cardapio" src="https://github.com/user-attachments/assets/02a8a396-ffe8-406d-8d8b-2972dec20ee0" />
+
 | Matheus Taylor | 556211 | Responsável pela documentação do README.md, criação do repositório `fiap-mdi-cp2-cantina-app` e atualizações da documentação conforme novas funcionalidades pro CheckPoint 2 (fiap-mdi-cp2-cantina-app). |
 
 ## Sobre o Projeto
@@ -92,27 +93,27 @@ Os prints abaixo foram capturados das versões recentes do aplicativo, já com t
 
 ### Tela Inicial (Home)
 
-
+<img width="1139" height="760" alt="menudisplay" src="https://github.com/user-attachments/assets/37b7ea9d-0293-4311-bf34-a79ca88d2ddd" />
 
 ### Tela Inicial (Home) – Modo Escuro
 
-
+<img width="498" height="1036" alt="menudark" src="https://github.com/user-attachments/assets/99224b54-ac60-4ad4-a264-15ababaaab4e" />
 
 ### Tela de Login
 
-
+<img width="1367" height="773" alt="login" src="https://github.com/user-attachments/assets/022984b1-eca6-4907-8942-76a290dc4685" />
 
 ### Tela do Cardápio (Menu)
 
-
+<img width="1220" height="791" alt="cardapio" src="https://github.com/user-attachments/assets/a46c69db-1358-49bc-8394-e556a50b8292" />
 
 ### Tela de Análise (Simulação)
 
-
+<img width="1304" height="732" alt="simulacao" src="https://github.com/user-attachments/assets/7f5d07bd-ad57-4018-8c98-ce4b85b65ec5" />
 
 ### Gráfico Histórico da Fila
 
-
+<img width="1227" height="755" alt="grafico" src="https://github.com/user-attachments/assets/2c843592-eb9e-4c86-a98b-b572b09601bc" />
 
 ### Link do Video do Projeto Rodando:
 https://youtube.com/shorts/wv70OC5QSvE?si=WEIQg8M_-V8Njo2e
