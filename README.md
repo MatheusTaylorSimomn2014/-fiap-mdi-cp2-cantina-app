@@ -152,40 +152,40 @@ cantina-app/
 | `useCallback`            | sobre, status                          | Memorizar funções de cálculo e geração de dados, evitando recriações desnecessárias e dependências instáveis em efeitos.                                                        |
 
 ## Navegação
-· Abas (Tabs): `_layout.js` define duas abas principais – Home (`index`) e Perfil (`perfil`).
-· Rotas empilhadas: A partir da Home, o usuário pode acessar `/login`, `/sobre`, `/status` e `/menu` via `router.push`, podendo retornar com router.back().
-· Parâmetros de rota: O nome do usuário logado e o estado do tema escuro (`dark`) são passados entre telas para manter a experiência coerente.
+- **Abas (Tabs):** `_layout.js` define duas abas principais – Home (`index`) e Perfil (`perfil`).
+- **Rotas empilhadas:** A partir da Home, o usuário pode acessar `/login`, `/sobre`, `/status` e `/menu` via `router.push`, podendo retornar com router.back().
+- **Parâmetros de rota:** O nome do usuário logado e o estado do tema escuro (`dark`) são passados entre telas para manter a experiência coerente.
 
 ## Simulação de dados
 
 Como o app foi desenvolvido para fins acadêmicos e demonstração (sem backend real), utilizamos `setInterval` e `Math.random()` para simular:
 
-· Número de pessoas na fila (0 a 14)
-· Tempo de atendimento por pessoa (2 a 6 minutos)
-· Atualização a cada 2 ou 3 segundos, conforme a tela.
+- Número de pessoas na fila (0 a 14)
+- Tempo de atendimento por pessoa (2 a 6 minutos)
+- Atualização a cada 2 ou 3 segundos, conforme a tela.
 
 Essa abordagem permite testar todas as funcionalidades sem dependência externa.
 
 ## Estilização e Tema Escuro
-· StyleSheet.create para estilos isolados por componente.
-· Cores definidas manualmente (ex: #F23064 para cards principais, #32CD32 para estimativa, #FF8C00 para barras do gráfico).
-· Tema escuro (dark mode): Cada tela possui um estado local `darkMode`, inicializado pelo parâmetro de rota. O botão flutuante no canto inferior esquerdo permite alternância instantânea, adaptando fundos, textos, inputs e cards.
+- StyleSheet.create para estilos isolados por componente.
+- Cores definidas manualmente (ex: #F23064 para cards principais, #32CD32 para estimativa, #FF8C00 para barras do gráfico).
+- Tema escuro (dark mode): Cada tela possui um estado local `darkMode`, inicializado pelo parâmetro de rota. O botão flutuante no canto inferior esquerdo permite alternância instantânea, adaptando fundos, textos, inputs e cards.
 
 ## Login e Cardápio
 
-· **Login:** Validação de campos, alternância entre cadastro e login, máscara de senha e feedback de erros.
-· **Cardápio:** Lista de itens com imagens, sistema de favoritos (estado local) e layout em grid responsivo.
+- **Login:** Validação de campos, alternância entre cadastro e login, máscara de senha e feedback de erros.
+- **Cardápio:** Lista de itens com imagens, sistema de favoritos (estado local) e layout em grid responsivo.
 
 ## Próximos Passos (Melhorias Futuras)
 
 Apesar do app já possuir funcionalidades além do escopo inicial, o grupo identifica oportunidades de evolução:
 
-· **Backend real** – API REST com Node.js + MongoDB para filas, usuários e cardápio dinâmico.
-· **Autenticação institucional** – Login via e‑mail FIAP/SSO para personalização do perfil.
-· **Localização da cantina** – Detectar qual unidade o aluno está para exibir a fila correspondente.
-· **Notificações push** – Alertar quando a fila estiver abaixo de um limite configurado.
-· **Acessibilidade** – Suporte a leitores de tela (já iniciado com `accessibilityLabel`), aumento de contraste e fontes ajustáveis.
-· **Perfil do aluno** (tela atualmente placeholder) – Histórico de idas à cantina, tempo médio de espera, preferências alimentares.
+- **Backend real** – API REST com Node.js + MongoDB para filas, usuários e cardápio dinâmico.
+- **Autenticação institucional** – Login via e‑mail FIAP/SSO para personalização do perfil.
+- **Localização da cantina** – Detectar qual unidade o aluno está para exibir a fila correspondente.
+- **Notificações push** – Alertar quando a fila estiver abaixo de um limite configurado.
+- **Acessibilidade** – Suporte a leitores de tela (já iniciado com `accessibilityLabel`), aumento de contraste e fontes ajustáveis.
+- **Perfil do aluno** (tela atualmente placeholder) – Histórico de idas à cantina, tempo médio de espera, preferências alimentares.
 
 ## Licença
 
